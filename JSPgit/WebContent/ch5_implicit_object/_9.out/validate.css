@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+fieldset{
+	margin: auto;
+	width: 550px;
+	heigth: 600px;
+
+}
+form{
+	width: 450px;
+	height: 550px;
+	margin: auto
+}
+input, textarea, span{
+	border: 1px solid green;
+	border-radius: 3px;
+	margin: 5px 0;
+	padding: 5px 0;
+}
+margin{height: 100px}
+label{
+	padding: 0 50px 0 0;
+	color: blue;
+}
+#idcheck, #postcode{border: 1px solid white;
+		background-color: orange;
+		color: white}
+input[type=submit]{
+	background-color: green;
+	color: white;
+	width: 220px;
+	height: 50px;
+	float: left;
+}
+input[type=reset]{
+	border: 1px solid red;
+	background-color: red;
+	color: white;
+	width: 220px;
+	height: 50px;
+	float: right;
+}
+#id{
+	margin: 0 10px 0 50px; 
+}
+#email, #address{
+	margin: 0 10px 0 20px; 
+}
+#address{
+	margin: 0 10px 0 30px; 
+}
+span{
+	margin:30px;
+	padding: 0 30px;
+}
+
